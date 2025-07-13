@@ -41,18 +41,20 @@
     <nav class="nav-links" aria-label="Menu">
       <div class="navbar-pc">
         <div class="sm:flex none">
+          <a
+            class="nav-item"
+              href="#book"
+              aria-label="Book a Meeting"
+              data-cal-link="nico-deepthought/30min"
+              data-cal-namespace="15min"
+              >
+              Book a Meeting
+          </a>
           {#each themeOptions.navbar as navItem}
             <NavItem {...navItem} />
           {/each}
         </div>
-        <div
-          class="nav-item"
-          role="link"
-            data-cal-link="nico-deepthought/30min"
-            data-cal-namespace="15min"
-            >
-            Book a Meeting
-        </div>
+        
         {#if themeOptions.github}
           <NavItem
             to={themeOptions.github}
