@@ -42,7 +42,7 @@
       <div class="navbar-pc">
         <div class="sm:flex none">
           <a
-            class="nav-item"
+            class="flex items-center cursor-pointer position-relative z-1 cursor-pointer decoration-none px-3"
               href="#book"
               aria-label="Book a Meeting"
               data-cal-link="nico-deepthought/30min"
