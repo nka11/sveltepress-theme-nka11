@@ -2,7 +2,7 @@
 /// <reference types="@sveltepress/vite/types" />
 /// <reference types="@sveltejs/kit/vite" />
 
-declare module 'virtual:sveltepress/theme-default' {
+declare module 'virtual:nka11/sveltepress-theme-nka11' {
   import type { CreateTwoslashSvelteOptions } from '@sveltepress/twoslash'
   import type { LoadTheme } from '@sveltepress/vite'
   import type { SvelteKitPWAOptions } from '@vite-pwa/sveltekit'
