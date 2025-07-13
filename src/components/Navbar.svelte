@@ -28,12 +28,18 @@
       {/if}
     </div>
     <CalCom namespace="15min" ></CalCom>  
-    <button
+    <div
+    class="nav-item"
+    class:built-in-icon={builtInIcon}
+    class:nav-item--icon={icon}
+    class:nav-item--user-icon={icon}
+    role="link"
       data-cal-link="nico-deepthought/30min"
       data-cal-namespace="15min"
+      
       >
-      Book a 15min Meeting
-    </button>
+      Book a Meeting
+  </div>
     {#if themeOptions.docsearch}
       <div
         class:is-home={isHome}
