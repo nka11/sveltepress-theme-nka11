@@ -1,18 +1,24 @@
 {
-  "name": "@sveltepress/theme-default",
+  "name": "@nka11/sveltepress-theme-nka11",
   "type": "module",
   "version": "6.0.4",
   "packageManager": "pnpm@9.15.0",
-  "description": "The default theme for sveltepress",
-  "author": {
-    "name": "Dongsheng Zhao",
-    "email": "1197160272@qq.com"
-  },
+  "description": "The default theme for sveltepress extended by nka11",
+  "contributors": [
+    {
+      "name": "Dongsheng Zhao",
+      "email": "1197160272@qq.com"
+    },
+    {
+      "name": "Nicolas Karageuzian",
+      "email": "nkarageuzian@gmail.com"
+    }
+  ],
   "license": "MIT",
-  "homepage": "https://sveltepress.site/",
+  "homepage": "https://nka11.github.io/",
   "repository": {
     "type": "github",
-    "url": "https://github.com/Blackman99/sveltepress",
+    "url": "https://github.com/nka11/sveltepress-theme-nka11",
     "directory": "packages/theme-default"
   },
   "keywords": [
