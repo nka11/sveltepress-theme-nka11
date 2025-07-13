@@ -1,6 +1,6 @@
 <script>
   import { page } from '$app/stores'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import Discord from './icons/Discord.svelte'
   import Github from './icons/Github.svelte'
   import { scrollDirection } from './layout'

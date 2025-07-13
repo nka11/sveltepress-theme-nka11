@@ -1,4 +1,4 @@
-import type { DefaultThemeOptions, ThemeDefault } from 'virtual:sveltepress/theme-default'
+import type { DefaultThemeOptions, ThemeDefault } from 'virtual:nka11/sveltepress-theme-nka11'
 
 import { SvelteKitPWA } from '@vite-pwa/sveltekit'
 import { SERVICE_WORKER_PATH } from './constants.js'
@@ -26,9 +26,9 @@ const defaultTheme: ThemeDefault = (options) => {
   themeOptionsRef.value = options
 
   return {
-    name: '@sveltepress/theme-default',
-    globalLayout: '@sveltepress/theme-default/GlobalLayout.svelte',
-    pageLayout: '@sveltepress/theme-default/PageLayout.svelte',
+    name: '@nka11/sveltepress-theme-nka11',
+    globalLayout: '@nka11/sveltepress-theme-nka11/GlobalLayout.svelte',
+    pageLayout: '@nka11/sveltepress-theme-nka11/PageLayout.svelte',
     vitePlugins: async (corePlugin) => {
       const plugins = [
         ...await createPreCorePlugins(options),

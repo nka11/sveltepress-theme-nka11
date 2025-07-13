@@ -1,4 +1,4 @@
-import type { DefaultThemeOptions } from 'virtual:sveltepress/theme-default'
+import type { DefaultThemeOptions } from 'virtual:nka11/sveltepress-theme-nka11'
 import type { PluginOption } from 'vite'
 import process from 'node:process'
 import extractorSvelte from '@unocss/extractor-svelte'
@@ -7,7 +7,7 @@ import Unocss from 'unocss/vite'
 import { SERVICE_WORKER_PATH } from '../constants.js'
 import { initHighlighter } from '../markdown/highlighter.js'
 
-const THEME_OPTIONS_MODULE = 'virtual:sveltepress/theme-default'
+const THEME_OPTIONS_MODULE = 'virtual:nka11/sveltepress-theme-nka11'
 
 const DEFAULT_GRADIENT = {
   start: '#fa709a',
@@ -91,11 +91,11 @@ export default async (options?: DefaultThemeOptions) => {
               : '"development"',
           },
           optimizeDeps: {
-            exclude: ['@sveltepress/theme-default'],
+            exclude: ['@nka11/sveltepress-theme-nka11'],
           },
           server: {
             fs: {
-              allow: [SERVICE_WORKER_PATH, 'node_modules/@sveltepress/theme-default/dist/fonts', '../theme-default/dist/fonts'],
+              allow: [SERVICE_WORKER_PATH, 'node_modules/@nka11/sveltepress-theme-nka11/dist/fonts', '../theme-default/dist/fonts'],
             },
           },
         }

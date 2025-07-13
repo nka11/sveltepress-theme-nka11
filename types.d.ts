@@ -78,7 +78,7 @@ declare module 'virtual:nka11/sveltepress-theme-nka11' {
   export default options
 }
 
-declare module '@sveltepress/theme-default/context' {
+declare module '@nka11/sveltepress-theme-nka11/context' {
   import type { Writable } from 'svelte/store'
 
   export interface SveltepressContext {

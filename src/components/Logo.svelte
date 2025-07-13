@@ -1,6 +1,6 @@
 <script>
   import siteConfig from 'virtual:sveltepress/site'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import NavItem from './NavItem.svelte'
   import { getPathFromBase, parseImageSrc } from './utils'
 </script>

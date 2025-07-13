@@ -6,7 +6,7 @@
   import { afterNavigate } from '$app/navigation'
   import { page } from '$app/stores'
   import { onMount, tick } from 'svelte'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import Backdrop from './Backdrop.svelte'
   import { tocCollapsed } from './layout'
 

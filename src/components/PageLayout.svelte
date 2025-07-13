@@ -3,7 +3,7 @@
   import { page } from '$app/stores'
   import { tick } from 'svelte'
   import siteConfig from 'virtual:sveltepress/site'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import EditPage from './EditPage.svelte'
   import Home from './Home.svelte'
   import HeroImage from './home/HeroImage.svelte'

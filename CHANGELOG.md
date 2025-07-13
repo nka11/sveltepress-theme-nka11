@@ -1,4 +1,4 @@
-# @sveltepress/theme-default
+# @nka11/sveltepress-theme-nka11
 
 ## 6.0.4
 

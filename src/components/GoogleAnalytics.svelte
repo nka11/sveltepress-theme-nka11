@@ -1,5 +1,5 @@
 <script>
-  import themeOption from 'virtual:sveltepress/theme-default'
+  import themeOption from 'virtual:nka11/sveltepress-theme-nka11'
 
   const ga = themeOption.ga
 </script>

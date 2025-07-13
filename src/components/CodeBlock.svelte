@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
 
   /**
    * @typedef {object} Props

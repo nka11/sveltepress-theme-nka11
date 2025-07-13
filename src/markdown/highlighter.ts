@@ -1,7 +1,7 @@
 import type { Highlighter } from '@sveltepress/vite'
 import type { BundledTheme, CodeToHastOptions, HighlighterGeneric, ShikiTransformer } from 'shiki'
 import type { BundledLanguage } from 'shiki/langs'
-import type { DefaultThemeOptions } from 'virtual:sveltepress/theme-default'
+import type { DefaultThemeOptions } from 'virtual:nka11/sveltepress-theme-nka11'
 import { env } from 'node:process'
 import { createTransformerFactory } from '@shikijs/twoslash'
 import { createTwoslasher, rendererFloatingSvelte } from '@sveltepress/twoslash'
@@ -111,7 +111,7 @@ export async function initHighlighter(highlighterConfig: DefaultThemeOptions['hi
               module: 199,
               moduleResolution: 99,
               jsx: 1,
-              types: ['@sveltepress/vite/types', '@sveltepress/theme-default/types', '@sveltepress/theme-default/components', '@sveltejs/kit'],
+              types: ['@sveltepress/vite/types', '@nka11/sveltepress-theme-nka11/types', '@nka11/sveltepress-theme-nka11/components', '@sveltejs/kit'],
             },
           }
         : highlighterConfig.twoslash),

@@ -1,6 +1,6 @@
-import type { LinkItem } from 'virtual:sveltepress/theme-default'
+import type { LinkItem } from 'virtual:nka11/sveltepress-theme-nka11'
 import { get, writable } from 'svelte/store'
-import themeOptions from 'virtual:sveltepress/theme-default'
+import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
 
 export const MOBILE_EDGE_WIDTH = 950
 

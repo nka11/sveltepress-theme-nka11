@@ -26,7 +26,7 @@ interface LiveCodePathItem {
 }
 
 const globalComponentsImporters = [
-  'import { Expansion, Link, CopyCode, Tabs, TabPanel, InstallPkg, IconifyIcon, CodeBlock } from \'@sveltepress/theme-default/components\'',
+  'import { Expansion, Link, CopyCode, Tabs, TabPanel, InstallPkg, IconifyIcon, CodeBlock } from \'@nka11/sveltepress-theme-nka11/components\'',
 ]
 
 const twoslashImporter = ['import Floating from \'@sveltepress/twoslash/FloatingWrapper.svelte\'']

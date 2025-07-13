@@ -1,6 +1,6 @@
 <script>
   import { onMount, tick } from 'svelte'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import Moon from './icons/Moon.svelte'
   import Sun from './icons/Sun.svelte'
   import { isDark } from './layout'

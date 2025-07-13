@@ -2,7 +2,7 @@
   import { afterNavigate, beforeNavigate } from '$app/navigation'
   import { page } from '$app/stores'
   import { onMount, setContext } from 'svelte'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import { SVELTEPRESS_CONTEXT_KEY } from '../context'
   import AjaxBar from './AjaxBar.svelte'
   import Backdrop from './Backdrop.svelte'

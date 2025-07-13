@@ -1,6 +1,6 @@
 <script>
   import { page } from '$app/stores'
-  import themOptions from 'virtual:sveltepress/theme-default'
+  import themOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import Next from './icons/Next.svelte'
   import Prev from './icons/Prev.svelte'
   import { pages } from './layout'

@@ -1,6 +1,6 @@
 <script>
   import { page } from '$app/stores'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import Edit from './icons/Edit.svelte'
 
   const routeId = $page.route.id

@@ -1,6 +1,6 @@
 <script>
   import { slide } from 'svelte/transition'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import Expansion from './Expansion.svelte'
   import TocClose from './icons/TocClose.svelte'
   import TocMenu from './icons/TocMenu.svelte'

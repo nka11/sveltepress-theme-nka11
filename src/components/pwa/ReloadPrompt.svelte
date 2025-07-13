@@ -1,6 +1,6 @@
 <script>
   import { useRegisterSW } from 'virtual:pwa-register/svelte'
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import Refresh from '../icons/Refresh.svelte'
   import Btn from './Btn.svelte'
   import Prompt from './Prompt.svelte'

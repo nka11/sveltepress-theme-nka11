@@ -1,5 +1,5 @@
 <script>
-  import themeOptions from 'virtual:sveltepress/theme-default'
+  import themeOptions from 'virtual:nka11/sveltepress-theme-nka11'
   import MenuOpen from './icons/MenuOpen.svelte'
   import { sidebarCollapsed, tocCollapsed } from './layout'
   import { DEFAULT_ON_THIS_PAGE } from './Toc.svelte'
