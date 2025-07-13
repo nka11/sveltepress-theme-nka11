@@ -27,7 +27,14 @@
         </div>
       {/if}
     </div>
-    <CalCom ></CalCom>
+    <CalCom namespace="15min" ></CalCom> 
+    <button
+      data-cal-link="your-username/15min"
+      data-cal-namespace="15min"
+      class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors"
+    >
+      Book a 15min Meeting
+    </button>
     {#if themeOptions.docsearch}
       <div
         class:is-home={isHome}
