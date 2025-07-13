@@ -19,7 +19,6 @@
   "repository": {
     "type": "github",
     "url": "https://github.com/nka11/sveltepress-theme-nka11",
-    "directory": "packages/theme-default"
   },
   "keywords": [
     "Docs",

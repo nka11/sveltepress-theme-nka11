@@ -74,7 +74,7 @@ export default async (options?: DefaultThemeOptions) => {
       ],
     }),
     {
-      name: '@sveltepress/default-theme',
+      name: '@nka11/sveltepress-theme-nka11',
       resolveId(id) {
         if (id === THEME_OPTIONS_MODULE)
           return THEME_OPTIONS_MODULE
@@ -95,7 +95,7 @@ export default async (options?: DefaultThemeOptions) => {
           },
           server: {
             fs: {
-              allow: [SERVICE_WORKER_PATH, 'node_modules/@nka11/sveltepress-theme-nka11/dist/fonts', '../theme-default/dist/fonts'],
+              allow: [SERVICE_WORKER_PATH, 'node_modules/@nka11/sveltepress-theme-nka11/dist/fonts', '../sveltepress-theme-nka11/dist/fonts'],
             },
           },
         }
