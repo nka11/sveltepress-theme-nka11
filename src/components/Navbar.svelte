@@ -16,6 +16,7 @@
   const isHome = $derived(routeId === '/')
   const hasError = $derived($page.error)
 </script>
+<CalCom namespace="15min" ></CalCom>  
 
 <header class="header" class:hidden-in-mobile={$scrollDirection === 'down'}>
   <div class="header-inner">
@@ -27,16 +28,6 @@
         </div>
       {/if}
     </div>
-    <CalCom namespace="15min" ></CalCom>  
-    <div
-    class="nav-item"
-    role="link"
-      data-cal-link="nico-deepthought/30min"
-      data-cal-namespace="15min"
-      
-      >
-      Book a Meeting
-  </div>
     {#if themeOptions.docsearch}
       <div
         class:is-home={isHome}
@@ -53,6 +44,14 @@
           {#each themeOptions.navbar as navItem}
             <NavItem {...navItem} />
           {/each}
+        </div>
+        <div
+          class="nav-item"
+          role="link"
+            data-cal-link="nico-deepthought/30min"
+            data-cal-namespace="15min"
+            >
+            Book a Meeting
         </div>
         {#if themeOptions.github}
           <NavItem
