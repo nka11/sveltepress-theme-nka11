@@ -41,15 +41,14 @@
     <nav class="nav-links" aria-label="Menu">
       <div class="navbar-pc">
         <div class="sm:flex none">
-          <a
+          <div
             class="flex items-center cursor-pointer position-relative z-1 cursor-pointer decoration-none px-3"
-              href="#book"
               aria-label="Book a Meeting"
               data-cal-link="nico-deepthought/30min"
               data-cal-namespace="15min"
               >
               Book a Meeting
-          </a>
+          </div>
           {#each themeOptions.navbar as navItem}
             <NavItem {...navItem} />
           {/each}
