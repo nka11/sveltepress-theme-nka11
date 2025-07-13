@@ -10,6 +10,7 @@
   import NavItem from './NavItem.svelte'
   import Search from './Search.svelte'
   import ToggleDark from './ToggleDark.svelte'
+    import CalCom from './CalCom.svelte';
 
   const routeId = $derived($page.route.id)
   const isHome = $derived(routeId === '/')
@@ -26,6 +27,7 @@
         </div>
       {/if}
     </div>
+    <CalCom ></CalCom>
     {#if themeOptions.docsearch}
       <div
         class:is-home={isHome}

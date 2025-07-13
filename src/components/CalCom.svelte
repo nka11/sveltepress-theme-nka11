@@ -13,7 +13,7 @@ It handles the initialization and API calls to the Cal.com script based on the p
 @param { string } [class=''] - CSS class to apply to the container element (for inline type).
 -->
 <script lang="ts">
-    import { initNamespace, callNamespaceMethod } from '$lib/cal.com';
+    import { initNamespace, callNamespaceMethod } from '../cal.com.js';
     import { onMount } from 'svelte';
 
     let {
